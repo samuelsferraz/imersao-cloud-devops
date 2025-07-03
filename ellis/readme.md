@@ -14,10 +14,14 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
    [Clique aqui para realizar o download](https://github.com/guilhermeonrails/imersao-devops/archive/refs/heads/main.zip)
 
 2. **Crie um ambiente virtual:**
+   - No Linux/Mac
    ```sh
    python3 -m venv ./venv
    ```
-
+   - No Windows
+   ```sh
+   python -m venv ./venv
+   ```
 3. **Ative o ambiente virtual:**
    - No Linux/Mac:
      ```sh
@@ -31,6 +35,11 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
      ```sh
      venv\Scripts\activate
      ```
+   3.1 **Desative o ambiente virtual:**
+
+   ```sh
+     deactivate
+   ```
 
 4. **Instale as dependências:**
    ```sh
